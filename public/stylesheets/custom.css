@@ -1,0 +1,187 @@
+.container {
+    width: 800px;
+}
+
+body {
+    background: #c7f;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header-img {
+    padding: 1em;
+    background: #fff;
+}
+
+section {
+    margin-top: 1em;
+    font-size: 120%;
+    padding 20px;
+    background 3fff;
+}
+
+section h1 {
+    font-size: 200%;
+}
+
+/* Links */
+/*color: #06c;*/
+
+a {
+    color: rgba(0,0,0,0.5);
+    text-decoration: underline;
+}
+
+/*text-decoration: underline;*/
+a:hover {
+    color rgba(0,0,0,0.9);
+}
+
+a:visited {
+    color #069;
+}
+
+/* Navigation */
+
+nav {
+    float: right;
+}
+
+nav {
+    background-color: rgba(90%,90%,90%,0.7);
+    padding: 0 0.5em;
+    white-space: no-wrap;
+}
+
+nav ul {
+    marign: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.2em 0;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+nav ul li a:visited {
+    color: #05c;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Signup Button */
+
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #005900;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 8px #003;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.inner-shadow {
+   -moz-box-shadow:inset 0 0 10px #000000;
+   -webkit-box-shadow:inset 0 0 10px #000000;
+   box-shadow:inset 0 0 10px #000000;
+}
+
+.round {
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+.text-shadow {
+	text-shadow: #6374AB 6px -6px 2px;
+}
+
+.stitched {
+   padding: 5px 10px;
+   margin: 10px;
+   background: #ff0030;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-top-left-radius: 3px;
+   -moz-border-radius-topleft: 3px;
+   -webkit-border-top-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   -moz-border-radius-bottomright: 3px;
+   -webkit-border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+   -moz-border-radius-topright: 3px;
+   -webkit-border-top-right-radius: 3px;
+   -moz-box-shadow: 0 0 0 4px #ff0030, 2px 1px 4px 4px rgba(10,10,0,.5);
+   -webkit-box-shadow: 0 0 0 4px #ff0030, 2px 1px 4px 4px rgba(10,10,0,.5);
+   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10,10,0,.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+}
+
+.gradient-text {
+  font-size: 56px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c6f), to(#333));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-shadow {
+          content: "";
+          position: fixed;
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 10px;
+
+          -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+          z-index: 100;
+}
+
+footer {
+    text-align:left;
+    margin-top: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+footer nav {
+    float: none;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.no-decoration.hover {
+    text-decoration: none;
+}

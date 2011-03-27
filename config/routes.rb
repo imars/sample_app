@@ -1,8 +1,10 @@
 SampleApp::Application.routes.draw do
-  root :to =>  'pages#home'
+  get "users/new"
+  root :to => 'pages#home'
   match '/contact', :to => 'pages#contact'
   match '/about', :to => 'pages#about'
   match '/help', :to => 'pages#help'
+  match '/signup', :to => 'users#new'
 
   #get "pages/home"
   #get "pages/contact"
@@ -29,7 +31,7 @@ SampleApp::Application.routes.draw do
   #       get 'short'
   #       post 'toggle'
   #     end
-  #
+  #y
   #     collection do
   #       get 'sold'
   #     end
