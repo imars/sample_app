@@ -1,8 +1,6 @@
 <header>
-  <!--<%= logo = image_tag("logo.png", :alt => "Sample App", :class => "") %>-->
-  <a href="<%= root_path %>" class="gradient-text no-decoration">
-    Logo
-  </a>
+  <!--<%= link_to "Logo", root_path, :class => "gradient-text no-decoration"  %>-->
+  <%= link_to logo, root_path, :class => "gradient-text no-decoration"  %>
   <nav class="shadow round">
     <ul>
       <li><%= link_to "Home", root_path %></li>
