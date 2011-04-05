@@ -206,7 +206,7 @@ td.main {
 td.sidebar {
   width: 30%;
   padding: 1em;
-  vertical-align: top;
+  vertical-align: top;y
   background: rgba(255, 255, 200, 0.8);
 }
 
@@ -217,6 +217,21 @@ td.sidebar {
 
 div.field, div.actions {
     margin-bottom: 10px;
+}
+
+
+
+
+
+/* ===================== User index page ===================== */
+
+
+ul.users {
+  margin-top: 1em;
+}
+
+.users li {
+  list-style: none;
 }
 
 
