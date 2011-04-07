@@ -1,0 +1,19 @@
+<%= form_for @micropost, :html => {:name => "micropost_form"} do |f| %>
+  <%= render 'shared/error_messages', :object => f.object %>
+  <div class="field">
+    <%= f.text_area :content, 
+	:class => "micropost", 
+        :onkeypress => "updateCount(140)",
+        :onkeyup => "updateCount(140)",
+        :onkeydown => "updateCount(140)"
+    %>
+  </div>
+  <div>
+    <label id="micropost_label">Characters left:</label>
+    <input name="micropost_chars" type="text" class="text_as_label" value="140" id="micropost_chars"/> 
+  </div>
+  <div class="actions">
+    <%= f.submit "Submit" %>
+  </div>
+<% end %>
+

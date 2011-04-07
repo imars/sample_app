@@ -73,6 +73,7 @@ nav ul li a {
 
 nav ul li a:visited {
     color: #05c;
+    /*color: rgba(100%,100%,100%,0.3)*/
 }
 
 nav ul li a:hover {
@@ -192,7 +193,6 @@ footer nav {
 
 /* ===================== User show page ===================== */
 
-
 table.profile {
   width: 100%;
   margin-bottom: 0;
@@ -207,7 +207,7 @@ td.sidebar {
   width: 30%;
   padding: 1em;
   vertical-align: top;y
-  background: rgba(255, 255, 200, 0.8);
+  background: rgba(255, 255, 200, 0.7);
 }
 
 .profile img.gravatar {
@@ -225,7 +225,6 @@ div.field, div.actions {
 
 /* ===================== User index page ===================== */
 
-
 ul.users {
   margin-top: 1em;
 }
@@ -237,8 +236,8 @@ ul.users {
 
 
 
-/* ===================== ERRORS ===================== */
 
+/* ===================== ERRORS ===================== */
 
 .field_with_errors {
   margin-top: 10px;
@@ -280,3 +279,87 @@ ul.users {
   font-size: 12px;
   list-style: square;
 }
+
+
+
+
+
+/* ===================== Microposts ===================== */
+
+h1.micropost {
+  margin-bottom: 0.3em;
+}
+
+table.microposts {
+  margin-top: 1em;
+}
+
+table.microposts tr {
+  height: 70px;
+}
+
+table.microposts tr td.gravatar {
+  border-top: 1px solid rgba(50%,50%,50%,0.4);
+  vertical-align: top;
+  width: 50px;
+}
+
+table.microposts tr td.micropost {
+  border-top: 1px solid rgba(50%,50%,50%,0.4);
+  vertical-align: top;
+  padding-top: 10px;
+  background-color: rgba(100%,100%,100%,0.5); 
+}
+
+table.microposts tr td.micropost span.timestamp {
+  display: block;
+  font-size: 50%;
+  color: rgba(50%,50%,50%,0.7);
+}
+
+div.user_info img {
+  padding-right: 0.1em;
+}
+
+div.user_info a {
+  text-decoration: none;
+}
+
+div.user_info span.user_name {
+  position: absolute;
+}
+
+div.user_info span.microposts {
+  font-size: 80%;
+}
+
+form.new_micropost {
+  margin-bottom: 2em;
+}
+
+form.new_micropost textarea {
+  height: 4em;
+  margin-bottom: 0;
+  background-color: rgba(100%,100%,100%,0.9); 
+}
+
+.micropost {
+    background-color: rgba(100%,100%,100%,0.3); 
+}
+
+/*
+form.new_micropost input {
+    background-color: rgba(100%,100%,100%,0.0);
+    border: 0
+}
+*/
+
+#micropost_chars {
+    background-color: rgba(100%,100%,100%,0.0);
+    font-size: 50%;
+    border: 0;
+}
+
+#micropost_label {
+    font-size: 50%;
+}   

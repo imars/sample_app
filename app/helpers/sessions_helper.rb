@@ -36,6 +36,18 @@ module SessionsHelper
     clear_return_to
   end
 
+  def authenticate
+    deny_access unless signed_in?
+  end
+
+  def admin_user
+    if !current_user.nil? #DEBUG
+      redirect_to(root_path) unless current_user.admin?
+    else
+      redirect_to(signin_path)
+    end
+  end
+
   private
 
     def user_from_remember_token
